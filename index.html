@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lê Hoàng Hiệp</title>
+  <meta name="description" content="Trang web cá nhân của Lê Hoàng Hiệp — giới thiệu, kỹ năng, kinh nghiệm, dự án và thông tin liên hệ.">
+  <meta property="og:title" content="Lê Hoàng Hiệp">
+  <meta property="og:description" content="Trang web cá nhân của Lê Hoàng Hiệp.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f5d50'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='28' fill='%23f4efe6'%3EH%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua tới nội dung</a>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top" aria-label="Về đầu trang">
+        <span class="brand__mark">H</span>
+        <span class="brand__name">Lê Hoàng Hiệp</span>
+      </a>
+      <nav aria-label="Điều hướng chính">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Mở menu">
+          <span></span><span></span>
+        </button>
+        <ul id="menu" class="nav__menu">
+          <li><a href="#gioi-thieu">Giới thiệu</a></li>
+          <li><a href="#ky-nang">Kỹ năng</a></li>
+          <li><a href="#kinh-nghiem">Kinh nghiệm</a></li>
+          <li><a href="#du-an">Dự án</a></li>
+          <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+      </nav>
+      <button class="theme" type="button" aria-label="Đổi giao diện sáng/tối">
+        <svg class="theme__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="theme__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero__grid">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Xin chào, tôi là</p>
+          <h1>Lê Hoàng Hiệp</h1>
+          <p class="hero__role">Kỹ sư phần mềm &amp; người thích xây dựng những thứ hữu ích</p>
+          <p class="hero__lead">
+            Tôi tạo ra các sản phẩm số gọn gàng, dễ dùng và bền vững — từ ý tưởng ban đầu
+            cho tới khi chạy thật trong tay người dùng.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#lien-he">Liên hệ với tôi</a>
+            <a class="btn btn--ghost" href="#du-an">Xem dự án</a>
+          </div>
+        </div>
+        <div class="hero__portrait reveal" aria-hidden="true">
+          <div class="portrait">
+            <!-- Thay bằng ảnh thật: <img src="avatar.jpg" alt="Lê Hoàng Hiệp"> -->
+            <span>LHH</span>
+          </div>
+          <div class="hero__badge">
+            <span class="dot"></span> Sẵn sàng cho dự án mới
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GIỚI THIỆU -->
+    <section class="section" id="gioi-thieu">
+      <div class="wrap two-col">
+        <div class="section__head reveal">
+          <p class="eyebrow">01 · Giới thiệu</p>
+          <h2>Đôi nét về tôi</h2>
+        </div>
+        <div class="prose reveal">
+          <p>
+            Tôi là <strong>Lê Hoàng Hiệp</strong>, sống và làm việc tại Việt Nam. Tôi yêu thích công nghệ,
+            đặc biệt là việc biến những vấn đề phức tạp thành giải pháp đơn giản, rõ ràng.
+          </p>
+          <p>
+            Trong công việc, tôi đề cao sự tỉ mỉ, tinh thần học hỏi liên tục và khả năng phối hợp
+            với đồng đội. Ngoài giờ làm, tôi thích đọc sách, khám phá công nghệ mới và đi du lịch.
+          </p>
+          <dl class="facts">
+            <div><dt>Nơi ở</dt><dd>Việt Nam</dd></div>
+            <div><dt>Ngôn ngữ</dt><dd>Tiếng Việt, Tiếng Anh</dd></div>
+            <div><dt>Sở thích</dt><dd>Đọc sách, du lịch, công nghệ</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- KỸ NĂNG -->
+    <section class="section section--alt" id="ky-nang">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <p class="eyebrow">02 · Kỹ năng</p>
+          <h2>Những gì tôi làm tốt</h2>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg>
+            </div>
+            <h3>Phát triển web</h3>
+            <p>Xây dựng giao diện và hệ thống web nhanh, ổn định, thân thiện trên mọi thiết bị.</p>
+            <ul class="tags"><li>HTML/CSS</li><li>JavaScript</li><li>React</li><li>Node.js</li></ul>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+            </div>
+            <h3>Dữ liệu &amp; hệ thống</h3>
+            <p>Thiết kế cơ sở dữ liệu, API và tự động hoá quy trình để công việc trơn tru hơn.</p>
+            <ul class="tags"><li>SQL</li><li>Python</li><li>REST API</li><li>Git</li></ul>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14c2.4 0 4 1.6 4.5 4.5"/></svg>
+            </div>
+            <h3>Làm việc nhóm</h3>
+            <p>Giao tiếp rõ ràng, chủ động chia sẻ và luôn đặt mục tiêu chung của nhóm lên trước.</p>
+            <ul class="tags"><li>Giao tiếp</li><li>Quản lý thời gian</li><li>Giải quyết vấn đề</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- KINH NGHIỆM -->
+    <section class="section" id="kinh-nghiem">
+      <div class="wrap two-col">
+        <div class="section__head reveal">
+          <p class="eyebrow">03 · Kinh nghiệm</p>
+          <h2>Hành trình của tôi</h2>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="timeline__time">2023 — Nay</span>
+            <h3>Kỹ sư phần mềm</h3>
+            <p class="timeline__org">Tên công ty</p>
+            <p>Phát triển và vận hành các sản phẩm web, phối hợp cùng đội thiết kế và sản phẩm.</p>
+          </li>
+          <li class="reveal">
+            <span class="timeline__time">2021 — 2023</span>
+            <h3>Lập trình viên</h3>
+            <p class="timeline__org">Tên công ty</p>
+            <p>Xây dựng tính năng mới, tối ưu hiệu năng và viết tài liệu kỹ thuật.</p>
+          </li>
+          <li class="reveal">
+            <span class="timeline__time">2017 — 2021</span>
+            <h3>Cử nhân Công nghệ thông tin</h3>
+            <p class="timeline__org">Tên trường đại học</p>
+            <p>Nền tảng về khoa học máy tính, cấu trúc dữ liệu và kỹ nghệ phần mềm.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- DỰ ÁN -->
+    <section class="section section--alt" id="du-an">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <p class="eyebrow">04 · Dự án</p>
+          <h2>Một vài sản phẩm tiêu biểu</h2>
+        </div>
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project__art project__art--a" aria-hidden="true"></div>
+            <div class="project__body">
+              <h3>Dự án thứ nhất</h3>
+              <p>Mô tả ngắn: bài toán đặt ra, cách giải quyết và kết quả đạt được.</p>
+              <ul class="tags"><li>React</li><li>Node.js</li></ul>
+              <a class="link" href="#">Xem chi tiết <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project__art project__art--b" aria-hidden="true"></div>
+            <div class="project__body">
+              <h3>Dự án thứ hai</h3>
+              <p>Mô tả ngắn: bài toán đặt ra, cách giải quyết và kết quả đạt được.</p>
+              <ul class="tags"><li>Python</li><li>SQL</li></ul>
+              <a class="link" href="#">Xem chi tiết <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project__art project__art--c" aria-hidden="true"></div>
+            <div class="project__body">
+              <h3>Dự án thứ ba</h3>
+              <p>Mô tả ngắn: bài toán đặt ra, cách giải quyết và kết quả đạt được.</p>
+              <ul class="tags"><li>HTML/CSS</li><li>JavaScript</li></ul>
+              <a class="link" href="#">Xem chi tiết <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIÊN HỆ -->
+    <section class="section contact" id="lien-he">
+      <div class="wrap contact__inner reveal">
+        <p class="eyebrow">05 · Liên hệ</p>
+        <h2>Cùng trò chuyện nhé!</h2>
+        <p class="contact__lead">
+          Bạn có ý tưởng, dự án hay chỉ đơn giản muốn chào hỏi? Hộp thư của tôi luôn mở.
+        </p>
+        <a class="btn btn--primary btn--lg" href="mailto:email@example.com">email@example.com</a>
+        <ul class="socials">
+          <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year">2026</span> Lê Hoàng Hiệp</p>
+      <a href="#top">Về đầu trang ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
